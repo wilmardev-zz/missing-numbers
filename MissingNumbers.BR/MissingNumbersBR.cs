@@ -34,6 +34,7 @@ namespace MissingNumbers.BR
         {
             List<int> arrList = arr.ToList();
             List<int> brrList = brr.ToList();
+            InputValidation.ValidateMaxMin(brrList);
             List<int> responseList = new List<int>();
             foreach (var brrItem in brrList)
                 ValidateMissingNumbers(responseList, brrList, arrList, brrItem);

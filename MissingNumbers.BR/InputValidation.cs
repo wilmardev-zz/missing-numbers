@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MissingNumbers.BR
@@ -22,6 +24,14 @@ namespace MissingNumbers.BR
                     Console.Write($"Enter '{input}':   ");
             }
             return number;
+        }
+
+        public static void ValidateMaxMin(List<int> brrList)
+        {
+            int min = brrList.Min();
+            int max = brrList.Max();
+            if ((max - min) > 100)
+                throw new Exception(">> ERROR: The difference between maximum and minimum number in the second list must be less tan 100");
         }
 
         public static int[] ValidateArrays(string[] array, int maxLength)

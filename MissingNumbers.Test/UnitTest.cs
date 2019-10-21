@@ -1,5 +1,6 @@
 using MissingNumbers.BR;
 using NUnit.Framework;
+using System.Collections.Generic;
 
 namespace Tests
 {
@@ -30,9 +31,17 @@ namespace Tests
         [TestCase(new string[] { "s", "s" }, -1)]
         [TestCase(new string[] { "1", "2" }, 3)]
         [TestCase(new string[] { "1", "2", "3" }, 2)]
-        public void ValidateArrays(string[] array, int dimension)
+        public void ValidateArraysTest(string[] array, int dimension)
         {
             Assert.Catch(() => { InputValidation.ValidateArrays(array, dimension); });
+        }
+
+        [Test]
+        public void ValidateMaxMinTest()
+        {
+            int[] arrMyValues = new int[] { 10, 20000, 3 };
+            List<int> brrList = new List<int>(arrMyValues);
+            Assert.Catch(() => { InputValidation.ValidateMaxMin(brrList); });
         }
     }
 }
