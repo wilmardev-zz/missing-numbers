@@ -30,7 +30,7 @@ namespace MissingNumbers.BR
         {
             int min = brrList.Min();
             int max = brrList.Max();
-            if ((max - min) > 100)
+            if ((max - min) > 101)
                 throw new Exception(">> ERROR: The difference between maximum and minimum number in the second list must be less than 100");
         }
 
