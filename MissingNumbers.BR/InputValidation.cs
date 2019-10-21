@@ -85,6 +85,7 @@ namespace MissingNumbers.BR
             message.Append("* 1 <= n, m <= 2x10^5\n");
             message.Append("* n <= m\n");
             message.Append("* 1 <= brr[i] <= 10^4\n");
+            message.Append("* Xmax - Xmin < 101\n");
             message.Append("\n****************************\n");
             Console.WriteLine(message);
         }
