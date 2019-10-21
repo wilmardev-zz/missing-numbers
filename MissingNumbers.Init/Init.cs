@@ -9,7 +9,6 @@ namespace MissingNumbers.Init
         {
             MissingNumbersBR missingNumbersBR = new MissingNumbersBR();
             return missingNumbersBR.Run();
-            //TextWriter textWriter = new StreamWriter(@"C:/", true);
 
         }
     }

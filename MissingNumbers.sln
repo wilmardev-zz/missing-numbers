@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumbers.Init", "MissingNumbers.Init\MissingNumbers.Init.csproj", "{BEE928AE-25D9-4C4C-9720-E2868B1D9DF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingNumbers.Init", "MissingNumbers.Init\MissingNumbers.Init.csproj", "{BEE928AE-25D9-4C4C-9720-E2868B1D9DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumbers.BR", "MissingNumbers.BR\MissingNumbers.BR.csproj", "{E6F0AFE3-79DB-4362-B232-C0B29ADE8F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingNumbers.BR", "MissingNumbers.BR\MissingNumbers.BR.csproj", "{E6F0AFE3-79DB-4362-B232-C0B29ADE8F60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumbers.Test", "MissingNumbers.Test\MissingNumbers.Test.csproj", "{EE307BE0-E7B7-41C8-933A-2140AF6B8540}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumbers.Test", "MissingNumbers.Test\MissingNumbers.Test.csproj", "{A178C766-61B8-4808-9ACB-BF61EF3EE5DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{E6F0AFE3-79DB-4362-B232-C0B29ADE8F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6F0AFE3-79DB-4362-B232-C0B29ADE8F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6F0AFE3-79DB-4362-B232-C0B29ADE8F60}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE307BE0-E7B7-41C8-933A-2140AF6B8540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE307BE0-E7B7-41C8-933A-2140AF6B8540}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE307BE0-E7B7-41C8-933A-2140AF6B8540}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE307BE0-E7B7-41C8-933A-2140AF6B8540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A178C766-61B8-4808-9ACB-BF61EF3EE5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A178C766-61B8-4808-9ACB-BF61EF3EE5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A178C766-61B8-4808-9ACB-BF61EF3EE5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A178C766-61B8-4808-9ACB-BF61EF3EE5DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
